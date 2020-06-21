@@ -9,11 +9,9 @@
       to HTML email development to single page apps.</p>
     <p>please feel free to reach out and chat.</p>
     <span class="cursor"></span>
+
     <p class="link-bar">
-      <a href="//codepen.io/michaelperrygoodman" target="_blank">codepen</a>
-      <a href="//github.com/michaelperrygoodman" target="_blank">github</a>
-      <a href="//linkedin.com/in/michaelperrygoodman" target="blank">linkedin</a>
-      <a href="mailto:michaelperrygoodman@gmail.com">email</a>
+      <a :href="link.url" v-for="link in social" :key="link.network" target="_blank">{{ link.network }}</a>
     </p>
   </section>
 </template>
@@ -21,6 +19,16 @@
 <script>
 export default {
   name: 'Home',
+  data() {
+    return {
+      social: [
+        { network: 'Codepen', url: '//codepen.io/michaelperrygoodman' },
+        { network: 'Github', url: '//github.com/michaelperrygoodman' },
+        { network: 'Linkedin', url: '//linkedin.com/in/michaelperrygoodman' },
+        { network: 'Email', url: 'mailto:michaelperrygoodman@gmail.com' },
+      ]
+    }
+  },
   methods: {
     randomBorderColor() {
       const colorValue = ['#66ffcc', '#ff6666', '#9566ff', '#ffffff', '#66ffff', '#ffff66'];
