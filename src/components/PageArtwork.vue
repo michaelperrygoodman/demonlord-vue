@@ -7,9 +7,3 @@
 
   </section>
 </template>
-
-<script>
-export default {
-  name: 'pageArtwork',
-};
-</script>

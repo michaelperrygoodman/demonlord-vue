@@ -5,6 +5,8 @@
 
 /* global ---------- */
 *,html {margin:0;padding:0;}
+html {overflow-y:scroll;scrollbar-width:none;scrollbar-color:dark;-ms-overflow-style: none;}
+html::-webkit-scrollbar{display:none;}
 body {-webkit-transition: all 225ms cubic-bezier(0.4, 0, 0.2, 1);transition: all 225ms cubic-bezier(0.4, 0, 0.2, 1);background:#090909;width:100%;height:100%;border-top:0.7862em solid #66ffcc;font-family:input-serif-compressed,serif;font-size:16px;font-weight:200;font-style:normal;line-height:normal;color:#dae4ea;}
 a {color:#66ffcc;text-decoration:none;border-bottom:#66ffcc 1px dotted;transition:all 350ms;}
 a:hover {color:#aaffe3;}
@@ -15,7 +17,7 @@ h1,h2 {margin-bottom:0.618em;font-weight:400;}
 p{margin-bottom:1.618em;text-align:left;line-height:1.618em;}
 ul {padding-left:1rem;}
 ul li {line-height:1.618em;}
-.link-bar a {margin-right:1.618em;}
+.link-bar a {margin: 0 0.618em;}
 .cursor {width:0.618em;height:1.272em;display:inline-block;margin-bottom:1.618em;animation:cursor-blink 350ms infinite;}
 @keyframes cursor-blink {50% { background-color: #dae4ea; }}
 
@@ -28,3 +30,7 @@ ul li {line-height:1.618em;}
 /* content ---------- */
 .content{border-bottom:#1b332b 1px dotted;}
 .link-list{margin-bottom:1.618em;}
+
+/* footer-link-bar */
+.link-bar {text-align:center}
+.quote {max-width:66%;margin:0 auto;padding:2.618em 0;display:block;text-align:center;font-size:12px;font-style:italic;color:#1f1f1f;line-height:1.618em;}

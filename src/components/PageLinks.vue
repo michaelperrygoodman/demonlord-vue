@@ -12,9 +12,3 @@
     </div>
   </section>
 </template>
-
-<script>
-export default {
-  name: 'pageLinks',
-};
-</script>

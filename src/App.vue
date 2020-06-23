@@ -2,19 +2,19 @@
   <div id="app">
     <global-header/>
     <router-view/>
-    <footer-link-bar/>
+    <global-footer/>
   </div>
 </template>
 
 <script>
 import globalHeader from './components/GlobalHeader';
-import footerLinkBar from './components/FooterLinkBar';
+import globalFooter from './components/GlobalFooter';
 
 export default {
   name: 'App',
   components: {
     'global-header': globalHeader,
-    'footer-link-bar': footerLinkBar,
+    'global-footer': globalFooter,
   },
   methods: {
     randomBorderColor() {

@@ -9,7 +9,6 @@
 import navMenu from './NavMenu';
 
 export default {
-  name: 'globalHeader',
   components: {
     'nav-menu': navMenu,
   },

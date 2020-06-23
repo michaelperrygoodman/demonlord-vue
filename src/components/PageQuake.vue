@@ -7,9 +7,3 @@
     </div>
   </section>
 </template>
-
-<script>
-export default {
-  name: 'pageQuake',
-};
-</script>

@@ -7,9 +7,3 @@
     <router-link to="/links">links</router-link>
   </nav>
 </template>
-
-<script>
-export default {
-  name: 'navMenu',
-};
-</script>
