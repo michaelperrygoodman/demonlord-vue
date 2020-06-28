@@ -14,6 +14,11 @@
     </div>
 
     <div class="sub-section">
+      <h2>Files</h2>
+      <p>Recommended programming books ad files</p>
+    </div>
+
+    <div class="sub-section">
       <h2>Repos</h2>
       <p>Here are some projects I have started and will hopefully finish someday.</p>
 
@@ -50,5 +55,30 @@
         <li><a href="#">github-cloneall.sh</a> :: Shell script with some Ruby to clone all of a user's github repos.</li>
       </ul>
     </div>
+
+    <div class="sub-section">
+      <h2>Reaktor Software</h2>
+      <img src="//placehold.it/720x320" alt="Reaktor" />
+      <strong></strong>
+    </div>
+
+    <div class="sub-section">
+      <h2>Max/MSP</h2>
+      <ul>
+        <li><a href="#">maxpatch-0.1.0</a> :: A new maxpatch that I don't know what it does</li>
+      </ul>
+    </div>
+
+    <div class="sub-section">
+      <h2>Supercollider Live Code</h2>
+      <code>
+        //Chaos engine hum
+        ({ SinOsc.ar(10 + (50 * SinOsc.kr([50, 51], 0,
+           SinOsc.kr(101, Saw.kr(0.12345, 678, 9), 0.2, 0.8),
+           Pulse.kr([25, 25.5], 0.25, 0.125, -0.25))), 0, 0.5, 0);
+          }.play();)
+      </code>
+    </div>
+
   </section>
 </template>

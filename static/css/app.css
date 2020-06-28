@@ -22,9 +22,10 @@ ul li {line-height:1.618em;}
 @keyframes cursor-blink {50% { background-color: #dae4ea; }}
 
 /* global-header ---------- */
-#global-header {display: flex;justify-content: space-between;padding-top:3em;}
+#global-header {display: flex;flex-direction:column;justify-content: space-between;padding-top:1.618em;}
 
 /* nav ---------- */
+.logo {align-self:center; margin-bottom:1.618em;}
 .main-nav a {margin-right:0;margin-left:1.618em;}
 
 /* content ---------- */

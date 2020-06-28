@@ -10,7 +10,7 @@
 <script>
 import quoteData from '../data/quoteData.json';
 export default {
-  name: 'globalFooter',
+  name: 'GlobalFooter',
   data() {
     return {
       quotes: quoteData,

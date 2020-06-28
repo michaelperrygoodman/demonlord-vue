@@ -7,16 +7,19 @@
 </template>
 
 <script>
-import globalHeader from './components/GlobalHeader';
-import globalFooter from './components/GlobalFooter';
+import GlobalHeader from './components/GlobalHeader';
+import GlobalFooter from './components/GlobalFooter';
 
 export default {
   name: 'App',
   components: {
-    'global-header': globalHeader,
-    'global-footer': globalFooter,
+    'global-header': GlobalHeader,
+    'global-footer': GlobalFooter,
   },
   methods: {
+    banner() {
+      console.log("Initializing...");
+    },
     randomBorderColor() {
       const colorValue = ['#66ffcc', '#ff6666', '#9566ff', '#ffffff', '#66ffff', '#ffff66'];
       const randomColorValue = colorValue[Math.floor(Math.random() * colorValue.length)];
@@ -24,6 +27,7 @@ export default {
     },
   },
   mounted() {
+    this.banner();
     const hexChanger = () => {
       this.randomBorderColor();
     };
