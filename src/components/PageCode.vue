@@ -19,6 +19,25 @@
     </div>
 
     <div class="sub-section">
+      <table>
+        <tbody><tr>
+            <td width="100%" bgcolor="#FF0000"><font color="#FFFFFF"><strong>July 6th, 1998</strong></font></td>
+          </tr>
+          <tr>
+            <td width="100%">As you probably know, DETH development is halted at this point.
+            &nbsp; However, if someone can get me some info on the AOLs that are located in the \tool
+            dir, I might be motivated to start up DETH again.&nbsp; What I want information on is any
+            function definitions that might exist for the *.AOL files (which are actually DLLs so
+            brilliantly renamed to AOL to confuse us).&nbsp; I am ESPECIALLY interested in the
+            function defs. for SUPERSUB.DLL.&nbsp; If you have any info, contact me at once. <p>That
+            is all.<strong><br>
+            -Hit</strong></p></td>
+          </tr>
+        </tbody>
+        </table>
+    </div>
+
+    <div class="sub-section">
       <h2>Repos</h2>
       <p>Here are some projects I have started and will hopefully finish someday.</p>
 
@@ -50,6 +69,15 @@
     <div class="sub-section">
       <h2>Shell Scripts</h2>
       <p>Not sure why these aren't just gists? I wanted a new section.</p>
+
+      <ul>
+        <li><a href="#">github-cloneall.sh</a> :: Shell script with some Ruby to clone all of a user's github repos.</li>
+      </ul>
+    </div>
+
+    <div class="sub-section">
+      <h2>IRC Scripts</h2>
+      <p>Scripts for IRSSI as well as some legacy scripts and clients.</p>
 
       <ul>
         <li><a href="#">github-cloneall.sh</a> :: Shell script with some Ruby to clone all of a user's github repos.</li>
