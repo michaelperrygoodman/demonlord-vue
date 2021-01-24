@@ -17,19 +17,19 @@
     </div>
 
     <div class="sub-section">
-      <h2>Runes</h2>
+      <h2>Sigils</h2>
     </div>
 
     <div class="sub-section">
       <h2>Portals</h2>
     </div>
 
-    <div class="sub-section">
+    <!-- <div class="sub-section">
       <h2>Dark Arts</h2>
     </div>
 
     <div class="sub-section">
       <h2>Figures</h2>
-    </div>
+    </div> -->
   </section>
 </template>

@@ -5,20 +5,13 @@
       <p>I am not a great computer programmer, but I enjoy the work I do. I spend
         more time thinking about what I would make than actually making anything. The upside
         is that I also don't write many bugs!</p>
-      <p>Despite this, for over a decade I've worked with web design and development agencies
-        and in a variety of industries, with brands such as Kraft, IBM, Wilson, Abbott, and others.</p>
-      <p>My primary focus in most of these roles has been tasks like page templating,
-        converting design comps into functional sites, and application UX/UI, however I've
-        become a swiss army knife of sorts, with skills ranging from logo design
-        to HTML email development to simple single page apps.</p>
     </div>
 
     <div class="sub-section">
       <h2>Files</h2>
       <p>Recommended programming books ad files</p>
     </div>
-
-    <div class="sub-section">
+    <!-- <div class="sub-section">
       <table>
         <tbody><tr>
             <td width="100%" bgcolor="#FF0000"><font color="#FFFFFF"><strong>July 6th, 1998</strong></font></td>
@@ -35,7 +28,7 @@
           </tr>
         </tbody>
         </table>
-    </div>
+    </div> -->
 
     <div class="sub-section">
       <h2>Repos</h2>

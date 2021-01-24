@@ -3,7 +3,7 @@
     <nav class="link-bar">
       <a :href="link.url" v-for="link in social" :key="link.network" target="_blank">{{ link.network }}</a>
     </nav>
-    <span class="quote"></span>
+    <!-- <span class="quote"></span> -->
   </section>
 </template>
 
@@ -15,8 +15,8 @@ export default {
     return {
       quotes: quoteData,
       social: [
-        { network: 'codepen', url: '//codepen.io/michaelperrygoodman' },
         { network: 'github', url: '//github.com/michaelperrygoodman' },
+        { network: 'codepen', url: '//codepen.io/michaelperrygoodman' },
         { network: 'linkedin', url: '//linkedin.com/in/michaelperrygoodman' },
         { network: 'email', url: 'mailto:michaelperrygoodman@gmail.com' },
       ]
