@@ -138,14 +138,11 @@
       "git CLI, MySQL/PostgreSQL"
     ],
     "software": [
-      "VS Code",
-      "neovim",
-      "DataGrip",
-      "Sequel Pro",
-      "Transmit",
-      "Paw",
-      "Photoshop",
-      "Sketch"
+      "VS Code, neovim",
+      "DataGrip, Sequel Pro",
+      "Transmit, Paw, Rested",
+      "Photoshop, Illustrator",
+      "XD, Sketch, Affinity"
     ],
     "additional": [
       "REST APIs",
