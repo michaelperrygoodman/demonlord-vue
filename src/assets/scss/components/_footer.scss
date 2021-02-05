@@ -1,0 +1,29 @@
+// Footer
+// ------
+footer {
+  .grid-container {
+    padding-right: 0.625rem !important; // Gross ass override
+    padding-left: 0.625rem !important;
+  }
+  .cell {
+    margin-top: 1.618rem;
+    padding-top: 1.618rem;
+    padding-bottom: 1.618rem;
+    //border-top:#1b332b 1px dotted;
+  }
+  .copyright { font-size:13px; }
+  .social-icons {
+    text-align: right;
+
+    a {
+      margin: 0 0.33rem;
+      border-bottom: none;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      i { font-size: 24px; }
+    }
+  }
+}

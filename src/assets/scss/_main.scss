@@ -1,0 +1,95 @@
+// Home
+// ----
+*:focus{outline:none;}
+*,html {margin:0;padding:0;}
+body {
+  -webkit-transition: background-color 2225ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 2225ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color:#66ffcc;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  font-weight:100;
+  line-height:22px;
+  letter-spacing:1px;
+  color:#dae4ea;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Animation Behaviors
+// -------------------
+$cubic-bezier: cubic-bezier(0.4, 0.0, 0.2, 1);
+@mixin cubic-bezier {
+  -webkit-transition: all 225ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: all 225ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+// Links
+// -----
+a {
+  color:#66ffcc;
+  text-decoration:none;
+  border-bottom:#66ffcc 1px dotted;
+  transition:all 350ms;
+
+  &:hover {
+    color:#aaffe3;
+  }
+}
+
+// Typography
+// ----------
+h1 {
+  line-height:1.33em;
+  color:#000;
+
+  @include breakpoint(medium) {
+    font-size:3.66em;
+    letter-spacing:-0.168rem;
+  }
+}
+p {
+  margin-bottom:1.618em;
+}
+
+// Structure
+// ---------
+section{
+  background-color:#000;
+  width:100%;
+  position:absolute;
+  z-index:10;
+  top:480px;
+  overflow:hidden;
+}

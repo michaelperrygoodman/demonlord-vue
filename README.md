@@ -1,21 +1,14 @@
 # demonlord-vue
-
-> Basic Vue project
+This is my personal website. It is unrefined and the code is a mess but it works so critique DEEZ
 
 ## Build Setup
-
-``` bash
+``` zsh
 # install dependencies
-npm install
+yarn
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn dev
 
 # build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+yarn build
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

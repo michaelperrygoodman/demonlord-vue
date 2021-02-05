@@ -1,0 +1,44 @@
+<template>
+  <div class="interior">
+    <div class="wrap grid-container">
+      <div class="grid-x">
+        <div class="portfolio-panel" style="background-color: #66ffcc;">
+          <div class="text-panel">
+            <span class="portfolio-title">Web Development</span>
+            <span class="portfolio-work">Full-Stack</span>
+          </div>
+        </div>
+        <div class="portfolio-panel" style="background-color: #ff6666;">
+          <div class="text-panel">
+            <span class="portfolio-title">Logo Design</span>
+            <span class="portfolio-work">Brand & Identity</span>
+          </div>
+        </div>
+        <div class="portfolio-panel" style="background-color: #9566ff;">
+          <div class="text-panel">
+            <span class="portfolio-title">UI/UX</span>
+            <span class="portfolio-work">Application Interaction</span>
+          </div>
+        </div>
+        <div class="portfolio-panel" style="background-color: #66ffff;">
+          <div class="text-panel">
+            <span class="portfolio-title">Abstract Art</span>
+            <span class="portfolio-work">Acrylic & Resin</span>
+          </div>
+        </div>
+        <div class="portfolio-panel" style="background-color: #ffffff;">
+          <div class="text-panel">
+            <span class="portfolio-title">Inkwashing</span>
+            <span class="portfolio-work">Sumi Ink & Watercolor</span>
+          </div>
+        </div>
+        <div class="portfolio-panel" style="background-color: #ffff66;">
+          <div class="text-panel">
+            <span class="portfolio-title">Ambient Music</span>
+            <span class="portfolio-work">Granular Synthesis</span>
+          </div>
+        </div>
+      </div>
+    </div><!-- /wrap -->
+  </div> <!-- /interior -->
+</template>

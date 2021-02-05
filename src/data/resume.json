@@ -1,0 +1,159 @@
+{
+  "basics": {
+    "name": "Michael Perry Goodman",
+    "email": "michaelperrygoodman@gmail.com",
+    "website": "http://michaelperrygoodman.com",
+    "about": "Started my career as both designer and developer, self-taught in both skills, and have a very good understanding of how both of these roles work independently as well as some opinions on how they ought to work together.",
+    "location": {
+      "city": "Chicago",
+      "state": "IL",
+      "countryCode": "US"
+    },
+    "profiles": [{
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/michaelperrygoodman"
+      },
+      {
+        "network": "Github",
+        "url": "https://www.github.com/michaelperrygoodman"
+      },
+      {
+        "network": "Codepen",
+        "url": "https://www.codepen.io/michaelperrygoodman"
+      }]
+  },
+  "work": [{
+    "company": "Michael Perry Goodman",
+    "position": "Web Design & Development Consulting",
+    "city": "Chicago, IL",
+    "website": "http://michaelperrygoodman.com",
+    "startDate": "2002",
+    "endDate": "Current",
+    "summary": "For almost two decades I've worked with web design and development agencies in a variety of industries, with brands such as Kraft, IBM, Wilson, Abbott, and many others.<br /><br />My primary focus in most of these roles has been tasks like page templating, converting design comps into live pages with [insert web tech here], and application UI, however i've become a swiss army knife of sorts, with skills ranging from logo design to site wire frames to HTML email development to single page apps.",
+    "tags": ["full-stack development", "ui/ux", "graphic design", "email development", "branding", "consulting"]
+  },
+  {
+    "company": "Mess",
+    "position": "Developer",
+    "city": "Chicago, IL",
+    "website": "http://thisismess.com",
+    "startDate": "2020",
+    "endDate": "Current",
+    "summary": "Largely Wordpress based APIs and Vue front-ends using docker/K8s, updating and adding to Django/Wagtail applications, and a Hugo blog using Forestry CMS.",
+    "tags": ["full-stack development", "vue.js", "sass", "html5", "php", "wordpress", "rest api", "python", "wagtail", "sql", "webpack", "docker"]
+  },
+  {
+    "company": "Breakout.Studio",
+    "position": "Senior Developer",
+    "city": "Chicago, IL",
+    "website": "http://breakout.studio",
+    "startDate": "2016",
+    "endDate": "2019",
+    "summary": "Website development with the Zurb Foundation framework and Craft CMS, Handlebars templates, MySQL, and Nginx web servers. HTML email campaign templates and compatibility testing with Litmus.",
+    "tags": ["front-end development", "jquery", "craft cms", "foundation", "npm", "sass", "html5", "nginx", "mysql", "gulp", "git"]
+  },
+  {
+    "company": "Healthbox",
+    "position": "Front-End Developer",
+    "city": "Chicago, IL",
+    "website": "http://healthbox.com",
+    "startDate": "2015",
+    "endDate": "2016",
+    "summary": "Creating React JSX templates for a Rails-based REST API, Github repository and Heroku deployment. Website redesign front-end work in React. Maintain a small suite of Rails engine applications and providing team support.",
+    "tags": ["front-end development", "react", "ruby on rails", "bootstrap", "npm", "sass", "html5", "gulp", "git"]
+  },
+  {
+    "company": "BigTime Software",
+    "position": "Front-End Developer",
+    "city": "Chicago, IL",
+    "website": "http://bigtime.net",
+    "startDate": "2014",
+    "endDate": "2015",
+    "summary": "Development and maintenance of the BigTime IQ application including development of new front-end feature functionality, User Experience planning, UI develoment via CSS, code refactoring. Additionally, development of corporate Wordpress theme UI.",
+    "tags": ["front-end development", "angular.js", "ASP.NET", "wordpress", "umbraco", "bootstrap", "css3", "html5", "subversion"]
+  },
+  {
+    "company": "Creative Circle",
+    "position": "Contact Designer & Developer",
+    "city": "Chicago, IL",
+    "website": "http://creativecircle.com",
+    "startDate": "2010",
+    "endDate": "2020",
+    "summary": "Worked with a large variety of clients from Fortune 500 to small shops doing an array of different work from print templates to microsites and single page applications.",
+    "tags": ["front-end development", "email design", "email development", "graphic design", "contracting"]
+  },
+  {
+    "company": "VSA Partners",
+    "position": "Front-End Developer",
+    "city": "Chicago, IL",
+    "website": "http://vsapartners.com",
+    "startDate": "2012",
+    "endDate": "2013",
+    "summary": "Website development with various JS frameworks, HTML email mark-up, microsites, responsive design development, legacy browser compliant mark-up, CSS3 animations.",
+    "tags": ["front-end development", "jquery", "ASP.NET", "wordpress", "bootstrap", "css3", "html5", "grunt", "git"]
+  },
+  {
+    "company": "AbelsonTaylor",
+    "position": "Interactive Developer",
+    "city": "Chicago, IL",
+    "website": "http://abelsontaylor.com",
+    "startDate": "2011",
+    "endDate": "2012",
+    "summary": "Front-end website development, HTML email markup, HTML5 iPad slides, CSS3 animations.",
+    "tags": ["front-end development", "email development", "jquery", "ASP.NET", "css3", "html5", "grunt", "subversion"]
+  },
+  {
+    "company": "Viveli",
+    "position": "Junior Designer & Developer",
+    "city": "Schaumburg, IL",
+    "website": "Defunct",
+    "startDate": "2008",
+    "endDate": "2010",
+    "summary": "UI development of proprietary data analysis marketing tools, web form design, photograph touch-up/treatments, print design (brochure, business cards), logo design, banner ads, etc.",
+    "tags": ["landing page development", "jquery", "php", "UI design", "adobe photoshop", "css3", "html5"]
+  },
+  {
+    "company": "Guidance Development",
+    "position": "Junior Designer & Developer",
+    "city": "Gurnee, IL",
+    "website": "http://gd2.com",
+    "startDate": "2007",
+    "endDate": "2008",
+    "summary": "Flash website development, web site mock-ups, banner ads. UI development of proprietary CMS environment.",
+    "tags": ["flash development", "php", "jquery", "UI design", "css", "html"]
+  }],
+  "volunteer": [{
+    "organization": "FreeGeek Chicago",
+    "position": "Volunteer",
+    "website": "http://freegeek.org"
+  }],
+  "skills": [{
+    "stack": [
+      "HTML, CSS/SASS",
+      "Javascript, Vue",
+      "Ruby, Rails",
+      "Python, Django",
+      "PHP, Wordpress/Craft CMS",
+      "BASH/ZSH scripting",
+      "git CLI, MySQL/PostgreSQL"
+    ],
+    "software": [
+      "VS Code",
+      "neovim",
+      "DataGrip",
+      "Sequel Pro",
+      "Transmit",
+      "Paw",
+      "Photoshop",
+      "Sketch"
+    ],
+    "additional": [
+      "REST APIs",
+      "Email Development",
+      "CMS Templates",
+      "UX Wireframing",
+      "Interface Design",
+      "Branding & Identity"
+    ]
+  }]
+}

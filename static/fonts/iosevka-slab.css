@@ -1,0 +1,8 @@
+/* @font-face ---------- */
+@font-face {
+  font-family: 'iosevka-slab-light';
+  src: url('./iosevka-slab-light.ttf') format('ttf'),
+       url('./iosevka-slab-light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

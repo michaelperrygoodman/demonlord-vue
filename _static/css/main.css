@@ -1,0 +1,113 @@
+/* main.css */
+*:focus{outline:none;}
+*,html {margin:0;padding:0;}
+body {
+  -webkit-transition: background-color 2225ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 2225ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color:#66ffcc;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  font-weight:100;
+  line-height:22px;
+  letter-spacing:1px;
+  color:#dae4ea;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  color:#66ffcc;
+  text-decoration:none;
+  border-bottom:#66ffcc 1px dotted;
+  transition:all 350ms;
+}
+a:hover {
+  color:#aaffe3;
+}
+header {
+  width: 100%;
+  height:480px;
+  position: fixed;
+  top: 0;
+  z-index:0;
+}
+.interior {
+  width:100%;
+  max-width:1100px;
+  margin:0 auto;
+}
+.header-content{
+  height: 100%;
+  max-height:340px;
+  display:flex;
+  align-items:flex-end;
+}
+nav {
+  /* background-color:#000; */
+  width: 100%;
+  height: 60px;
+  padding:60px 0 0;
+  font-family:'Muli',sans-serif;
+  font-size:13px;
+  color:#000;
+}
+nav .interior {
+  display:flex;
+  justify-content:space-between;
+}
+.logo {
+  max-height: 40px;
+  margin-left:1.618rem;
+}
+.main-menu {
+  list-style-type: none;
+  margin-right:1.618rem;
+  display:flex;
+  align-items:center;
+  text-transform:uppercase;
+}
+.main-menu li {
+  display:inline-block;
+  margin-right: 1rem;
+  margin-left:1rem;
+}
+.main-menu li:last-child {
+  margin-right:0;
+}
+.main-menu li a {
+  border:none;
+  color:#000;
+  padding: 4px 6px;
+}
+.main-menu li a:hover {
+  background:#000;
+  color:#fff;
+}
+h1 {
+  max-width: 800px;
+  margin-bottom: 1.618em;
+  margin-left: 1.618rem;
+  font-size:3.66em;
+  line-height:1.33em;
+  letter-spacing:-0.168rem;
+  color:#000;
+}
+p {
+  margin-bottom:1.618em;
+}
+section{
+  background-color:#000;
+  width:100%;
+  position:absolute;
+  z-index:10;
+  top:480px;
+  overflow:hidden;
+}
+.interior .wrap {
+  max-width: 760px;
+  margin:4rem 1.618rem;
+}
+footer .wrap {
+  padding-top:4rem;
+  border-top:#1b332b 1px dotted;
+}
+.copyright { font-size:13px; }
