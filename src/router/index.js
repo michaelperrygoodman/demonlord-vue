@@ -10,7 +10,10 @@ import PageEtc from '@/components/PageEtc';
 Vue.use(Router);
 
 export default new Router({
+  hashbang: false,
   mode: 'history',
+  linkActiveClass: 'active',
+  root: '/',
   routes: [
     {
       path: '/',
