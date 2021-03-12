@@ -6,6 +6,7 @@ import MainView from '@/components/MainView';
 import PageResume from '@/components/PageResume';
 import PageWarez from '@/components/PageWarez';
 import PageEtc from '@/components/PageEtc';
+import PageNotFound from '@/components/PageNotFound';
 
 Vue.use(Router);
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/etc',
       name: 'page-etc',
       component: PageEtc,
+    },
+    {
+      path: '*',
+      name: 'page-notfound',
+      redirect: PageNotFound
     },
   ],
 });
