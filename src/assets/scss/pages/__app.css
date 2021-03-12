@@ -198,6 +198,11 @@ footer .quote {
   line-height: 2rem;
   margin-bottom: 1.618rem;
 }
+.page-main {
+  height: 200px;
+  top: auto;
+  bottom: 0;
+}
 .page-resume .columns {
   display:flex;
   justify-content: space-between;
