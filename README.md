@@ -1,5 +1,5 @@
 # demonlord-vue
-This is my personal website. It is unrefined and the code is a mess but it works so critique DEEZ
+this is my personal website. it is unrefined and the code is a shitty but it works so critique DEEZ
 
 ## Build Setup
 ``` zsh
