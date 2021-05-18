@@ -150,6 +150,12 @@
         document.getElementById('headline').innerHTML = randomQuoteValue;
       },
     },
+    watch:{
+        $route (to, from){
+          this.delaunay();
+          this.newQuote();
+        }
+    },
     mounted() {
       this.delaunay();
       this.newQuote();
