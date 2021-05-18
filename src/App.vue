@@ -33,7 +33,20 @@ export default {
   },
   methods: {
     banner() {
-      console.log('Initializing...');
+      console.log(`
+..axs$a.'$$$a. $$$$&a. .a$$$a.
+   $$$ $$$ $$$ $$$ $$$ $$$ $$$
+   $$$ $$$ $$$ $$$ $$$ $$$  '$
+   $$$ $$$ $$$ $$$ $$$ $$$
+   $$$ $$$ $$$ $$$s$$' $$$'$$$"'
+   $$$ $$$ $$$ $$$     $$$ $$$
+   $$$ $$$ $$$ $$$     $$$ $$$
+   $$$ $$$ $$$ $$$     '$$a$$s..
+     "' "$" ---------------------
+         '' ---- website by mpg -
+            ---- demonlord.org --
+      `);
+      console.log('// Initializing...');
     },
     randomColor() {
       const colors = [ '#66ffcc', '#ff6666', '#9566ff', '#66ffff', '#ffff66' ];

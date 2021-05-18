@@ -200,7 +200,7 @@ footer .quote {
 }
 .page-resume .columns {
   display:flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 .page-resume .sub-section {
   width: 100%;
@@ -225,9 +225,9 @@ footer .quote {
   font-size: 14px;
   text-transform: uppercase;
 }
-.page-resume .sidebar {
-  max-width: 28%;
-}
+
+.page-resume .sidebar { max-width: 100%; }
+
 .page-resume .sidebar p {
   margin-bottom: 4.124rem;
   padding: 0;
@@ -244,6 +244,19 @@ footer .quote {
 .page-warez .sub-section { max-width: 640px; }
 
 /* mobile ---------- */
+@media (min-width: 640px) {
+  .page-resume .columns {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .page-resume .sub-section { padding-right: 10px; }
+  .page-resume .sidebar {
+    max-width: 28%;
+    padding-left: 10px;
+  }
+
+}
+
 @media (max-width: 640px) {
   .interior { max-width: 600px; }
   h1 { max-width: 400px; font-size: 2.25rem; }
