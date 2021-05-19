@@ -4,7 +4,7 @@
     <nav>
       <div class="interior">
         <router-link to="/" class="logo"><img src="static/img/logo-hvlogo-blk.png" alt="Hyperlotus" /></router-link>
-        <nav-menu/>
+        <nav-menu />
 
       </div><!-- /interior -->
     </nav><!-- /nav -->
