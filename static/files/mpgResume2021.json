@@ -30,7 +30,17 @@
     "startDate": "2002",
     "endDate": "Current",
     "summary": "For almost two decades I've worked with web design and development agencies in a variety of industries, with brands such as Kraft, IBM, Wilson, Abbott, and many others.<br /><br />My primary focus in most of these roles has been tasks like page templating, converting design comps into live pages with [insert web tech here], and application UI, however i've become a swiss army knife of sorts, with skills ranging from logo design to site wire frames to HTML email development to single page apps.",
-    "tags": ["full-stack development", "ui/ux", "graphic design", "email development", "branding", "consulting"]
+    "tags": ["full-stack development", "ui/ux", "graphic design", "email development", "branding", "development consulting"]
+  },
+  {
+    "company": "Shift7 Digital",
+    "position": "Senior Front-End Developer",
+    "city": "Chicago, IL",
+    "website": "http://shift7digital.com",
+    "startDate": "2021",
+    "endDate": "Current",
+    "summary": "",
+    "tags": ["front-end development", "11ty", "sass", "html5", "SFMC SSJS", "AMPscript"]
   },
   {
     "company": "Mess",
@@ -38,13 +48,13 @@
     "city": "Chicago, IL",
     "website": "http://thisismess.com",
     "startDate": "2020",
-    "endDate": "Current",
+    "endDate": "2021",
     "summary": "Largely Wordpress based APIs and Vue front-ends using docker/K8s, updating and adding to Django/Wagtail applications, and a Hugo blog using Forestry CMS.",
     "tags": ["full-stack development", "vue.js", "sass", "html5", "php", "wordpress", "rest api", "python", "wagtail", "sql", "webpack", "docker"]
   },
   {
     "company": "Breakout.Studio",
-    "position": "Senior Full-Stack Developer",
+    "position": "Full-Stack Developer",
     "city": "Chicago, IL",
     "website": "http://breakout.studio",
     "startDate": "2016",
@@ -129,15 +139,17 @@
   }],
   "skills": [{
     "stack": [
-      "HTML, CSS/SASS",
-      "Javascript, Vue",
-      "MySQL/PostgreSQL",
-      "git CLI, BASH/ZSH"
+      "HTML5, SASS",
+      "ES5/6++, Vue, React",
+      "ZSH, yarn, git CLI"
     ],
     "software": [
       "VS Code, neovim",
-      "Photoshop, Illustrator",
-      "XD, Sketch, Figma"
+      "Adobe CC Suite",
+      "Sketch, Figma",
+      "Paw, DataGrip, Evernote",
+      "Firefox Dev, Canary",
+      "MacOS 11, Win 10, Manjaro"
     ],
     "additional": [
       "REST APIs",
